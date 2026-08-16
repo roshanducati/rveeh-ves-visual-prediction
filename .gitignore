@@ -1,0 +1,55 @@
+# Patient and derived data: never commit any local data directory.
+/data/
+/data_strict/
+
+# Generated model outputs, tables, figures, and serialised artefacts.
+/results/
+/results_*/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.sav
+*.dta
+*.rds
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.docx
+*.pptx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.svg
+*.zip
+*.7z
+
+# Local environment and secrets.
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# OS and editor files.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Pending publication - remove gitignore on publication
+CITATION.cff
